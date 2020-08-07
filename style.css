@@ -167,6 +167,7 @@ footer {
 #triviaqs p {
   padding: 0 10% 6% 10%;
   color: white;
+  font-family: 'Lato';
 }
 
 #triviaqs {
@@ -179,6 +180,18 @@ footer {
   font-style: oblique;
 }
 
+.triviamain {
+  margin: 5% 0 0 5%;
+}
+
+.triviamain h2 {
+  padding-bottom: 3%;
+}
+
+.triviamain h3 {
+  font-family: 'Lato';
+  color: white;
+}
 /* MIN-WIDTH 900PX */
 
 @media (min-width: 900px) {

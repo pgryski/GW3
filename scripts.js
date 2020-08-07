@@ -283,18 +283,18 @@ document.getElementById("q3").addEventListener("click", function() {
   answerText12();
   }, false);
 
-//////////
-  function answerText13() {
-    var text = document.getElementById("answer13");
-    if (text.style.display == "none"){
-    text.style.display = "block";
-    }
-    else {
-    text.style.display = "none";
-    }
-  }
+  //////////
+    function answerText13() {
+      var text = document.getElementById("answer13");
+      if (text.style.display == "none"){
+      text.style.display = "block";
+        }
+      else {
+      text.style.display = "none";
+      }
+      }
 
-  document.getElementById("q13").addEventListener("click",function() {
+    document.getElementById("q13").addEventListener("click", function() {
     answerText13();
     }, false);
 
@@ -312,21 +312,6 @@ document.getElementById("q3").addEventListener("click", function() {
 document.getElementById("q14").addEventListener("click", function() {
   answerText14();
   }, false);
-
-  //////////
-    function answerText12() {
-      var text = document.getElementById("answer12");
-      if (text.style.display == "none"){
-      text.style.display = "block";
-        }
-      else {
-      text.style.display = "none";
-      }
-      }
-
-    document.getElementById("q12").addEventListener("click", function() {
-    answerText12();
-    }, false);
 
   //////////
     function answerText15() {
