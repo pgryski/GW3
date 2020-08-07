@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display: block;
+}
+
+main, body {
+  background-color: brown;
+}
+
+.home-article {
+  background-color: white;
+  max-width: 39%;
+  margin: 3%;
+  padding:0 2%;
+  border-radius: 20px;
+}
+
+
+header{
+  background-color: brown;
+  text-align: center;
+  padding: 2%;
+}
+
+nav{
+  list-style-type: none;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline;
+
+}
+
+nav ul li a {
+  color: white;
+  margin: 3%;
+  font-family: 'Limelight', cursive;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+  }
+
+a:visited {
+  color:#da802c;
+}
+
+
+#logo img{
+  width: 50%;
+}
+
+#allfriends img{
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: .8%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+p {
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Limelight', cursive;
+  }
+
+h2 {
+  font-family: 'Limelight', cursive;
+  color:#da802c
+}
+
+.text-content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer {
+  background-color: #da802c;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: .9em;
+  text-align: center;
+  padding: 2% 0 2% 0;
+}
+
+
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#characters div{
+  max-width: 100%;
+}
+
+#characters div img {
+  width:96%;
+  padding: 2%;
+}
+
+#characters div article {
+  background-color: white;
+  border-radius: 20px;
+  margin: 2%;
+  padding: 2%;
+}
+
+
+/*Min-width media @ 600px */
+
+
+@media (min-width: 600px) {
+  nav ul li a {
+    font-size: 2em;
+  }
+
+  #logo img{
+    width: 30%;
+  }
+
+  #characters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #characters div{
+    max-width: 50%;
+  }
+
+  #characters div img {
+    width:94%;
+    padding: 3%;
+  }
+
+  #characters div article {
+    background-color: white;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 2%;
+  }
+
+  #characters div img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+}
+
+/*TRIVIA STYLING*/
+#triviaqs p {
+  padding: 0 10% 6% 10%;
+  color: white;
+}
+
+#triviaqs {
+  padding: 5% 0 5% 0;
+}
+
+.answers {
+  padding: 0 0 3% 5%;
+  display: none;
+  font-style: oblique;
+}
+
+/* MIN-WIDTH 900PX */
+
+@media (min-width: 900px) {
+  nav ul li a {
+    font-size: 2em;
+  }
+
+  #logo img{
+    width: 30%;
+  }
+
+  #characters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #characters div{
+    max-width: 33%;
+  }
+
+  #characters div img {
+    width:96%;
+    padding: 2%;
+  }
+
+  #characters div article {
+    background-color: white;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 2%;
+  }
+
+  #characters div img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+}
